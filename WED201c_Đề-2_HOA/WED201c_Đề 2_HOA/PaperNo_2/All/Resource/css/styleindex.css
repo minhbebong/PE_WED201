@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 15px;
+}
+.img-banner-1{
+    width: 100%;
+    height: auto;
+}
+.menu-above-img img{
+    width: 100%;
+    border-radius: 50%;
+    /* border: 5px solid rgb(201, 195, 195); */
+    box-shadow: 1px 1px 4px 5px #ccc;   
+}
+.menu-above{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.menu-above p {
+    color: rgb(14, 192, 14);
+    font-size: 48px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    ;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 192, 14);
+    padding: 15px 10%;
+}
+.menu li{
+    list-style: none;
+}
+.img-primary-left {
+    float: left;
+    width: 32%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.img-primary-left img{
+    width: 100%;
+    height: auto ;
+}
+.content-right{
+    width: 65%;
+    float: right;
+    margin-top: 2%;
+}
+.content-right h2{
+    margin-bottom: 1%;
+    color: rgb(230, 24, 110);
+}
+.content-right p{
+    margin-bottom: 1%;
+}
+.content-right-pink{
+    color: rgb(230, 24, 110);
+
+}
+.list-meaning {
+    color: rgb(16, 236, 236);
+    list-style: circle;
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.list-meaning li{
+    font-style: italic;
+}
+.best-seller {
+    margin-top: 2%;
+}
+.best-seller h1{
+    text-align: center;
+    color: rgb(14, 192, 14);
+    margin-bottom: 2%;
+}
+.best-seller img{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 1%;
+}
+.best-seller-item{
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    box-shadow: 1px 1px 4px 5px rgb(145, 138, 138);   
+    border-radius: 1%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.best-seller-item p, .best-seller-item h3, .best-seller-item div{
+    text-align: center;
+}
+.best-seller-item h3{
+    color: rgb(14, 192, 14);
+    margin-bottom: 4%;
+}
+.best-seller-item p {
+    color: rgb(230, 81, 11);
+    font-weight: bold;
+    margin-bottom: 4%;
+
+}
+.best-seller-item  div{
+    padding: 15px 5px;
+    background-color: rgb(230, 81, 11);
+    width: 30%;
+    border-radius: 30%;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(14, 192, 14);
+    color: #fff;
+    margin-top: 2%;
+    padding: 3% 1%;
+}
+.footer p{
+    margin-bottom: 1.5%;
+}
