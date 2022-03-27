@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+.boxtop {
+    float: left;
+    width: 100%;
+    background-color: #333;
+    height: 50px;
+}
+
+.boxlogo {
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #ccc solid;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.boxmenu {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+
+article {
+    float: left;
+    width: 100%;
+    min-height: 700px;
+    margin: 30px 0px;
+}
+
+.boxpro {
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.boxpro a {
+    color: #333;
+    text-decoration: none;
+}
+
+.boxpro a:hover {
+    color: blue;
+}
+
+.boximg {
+    width: 100%;
+}
+
+.boximg img {
+    width: 100%;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #333;
+    height: 150px;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.boxtopleft {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #ccc;
+}
+
+.boxtopright {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+
+.boxtopright a {
+    color: #ccc;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    padding: 15px 20px;
+    font-size: 11pt;
+}
+ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li ul {
+    display: none;
+    background-color: azure;
+}
+ul li ul li{
+    float: none;
+    border-bottom: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    padding: 10px 20px;
+}
+
+ul li ul li:first-child{
+    border-top: 1px #ccc solid;
+}
