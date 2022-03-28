@@ -59,7 +59,7 @@ footer {
     float: left;
     width: 100%;
     background-color: #333;
-    height: 150px;
+    min-height: 150px;
 }
 
 .boxcenter {
@@ -80,10 +80,17 @@ footer {
     line-height: 50px;
 }
 
-.boxtopright a {
+.boxtopright a, 
+footer a {
     color: #ccc;
     margin-left: 20px;
     text-decoration: none;
+}
+
+.boxtopright a:hover,
+.footer a:hover{
+    color: #fff;
+    text-decoration: underline;
 }
 
 ul {
@@ -97,11 +104,13 @@ ul li {
     padding: 15px 20px;
     font-size: 11pt;
 }
-ul li:hover ul{
+
+ul li:hover ul {
     display: block;
     position: absolute;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -111,7 +120,8 @@ ul li ul {
     display: none;
     background-color: azure;
 }
-ul li ul li{
+
+ul li ul li {
     float: none;
     border-bottom: 1px #ccc solid;
     border-left: 1px #ccc solid;
@@ -119,6 +129,109 @@ ul li ul li{
     padding: 10px 20px;
 }
 
-ul li ul li:first-child{
+ul li ul li:first-child {
     border-top: 1px #ccc solid;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.boxcenter2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.boxfooter1{
+    width: 18%;
+    float: left; 
+}
+
+.boxfooter2 {
+    width: 28%;
+    float: left; 
+}
+
+
+.mrr2{
+    margin-right: 2%;
+}
+
+.boxfooter3 {
+    width: 60%;
+    float: left;
+}
+
+.textcenter{
+    text-align: center;
+}
+ 
+.colorc{
+    color: #ccc;
+}
+
+.mrb10{
+    margin-bottom: 10px;
+}
+
+.boxdangky{
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.boxdangky1{
+    float: left;
+    width: 60%;
+    margin-right: 10%;
+}
+
+.boxdangky1{
+    float: left;
+    width: 40%;
+}
+
+.boxdangky2 img{
+    width: 50%;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 5px 0px;
+}
+
+td:first-child{
+    width: 30%;
+}
+
+input{
+    width: 100%;
+}
+
+
+input[type="submit"]{
+    width: 100px;
+    background-color: green;
+    float: left;
+    color: white;
+    padding: 10px 0px;
+    margin-right: 10px;
+    border: 1px #00cc00 solid;
+    border-radius: 10px ;
+}
+
+input[type="button"]{
+    width: 100px;
+    background-color: #333;
+    border: 1px #cccccc solid;
+    float: left;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px ;
+
 }
