@@ -1,0 +1,42 @@
+aside img {
+    display:none;
+}
+header {
+    text-align: center;
+    background-color: grey;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: yellow;
+}
+
+header nav a {
+    background-color: white;
+    color: black;
+}
+
+section {
+    background-color: grey;
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+section table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+}
+
+section table tr:nth-child(1){
+    background-color:yellow;
+  }
+
+
+#mytext {
+    color: lightgrey;
+}
+
+
